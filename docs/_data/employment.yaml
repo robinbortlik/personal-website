@@ -1,0 +1,61 @@
+- company: Learnlife.com
+  dates: Dec 2020 — Dec 2021
+  city: Remote
+  description: |
+    I have been leading a team of 4 developers. Together we have built an e-learning platform
+    and internal CRM system with a shared single sign-on service. My responsibility was
+    mainly to support developers and take care of theirs needs. That involved 1:1 meetings,
+    pairing sessions, features planning. Aside from that I was still coding and designing the
+    architecture of the platform.
+  tech: Ruby, Javascript, Redis, Terraform, Elasticsearch
+  skills: Leadership, Project management
+
+- company: Reevoo.com
+  dates: May 2016 — Nov 2020
+  city: London, Remote
+  description: |
+    During my carrier in Reevoo I went through various projects which involved maintenance
+    of Ruby on Rails monolith applications and its refactoring using microservices architecture,
+    big data processing aka large feed file imports, data aggregations using Logstash and
+    Elasticsearch, or implementing new services using various Javascript frameworks. Besides
+    that, I have been helping onboarding newcomers as theirs "buddy".
+  tech: Ruby, Javascript, Redis, RabbitMQ, Terraform, Elasticsearch, Logstash, AWS
+  skills: Self-management, Microservice architecture, Big data processing
+
+- company: Panter.ch
+  dates: Nov 2014 — Nov 2015
+  city: Remote
+  description: |
+    Mostly worked on small Ruby on Rails applications which served as internal platforms.
+    Focusing on clean and well-tested code.
+  tech: Ruby, Javascript
+
+- company: USU Software
+  dates: Sep 2013 — Aug 2014
+  city: Prostějov
+  description: |
+    I have joined USU to help to build the SAAS platform with Ruby on Rails and educate my
+    colleagues about best practices and new trends.
+  tech: Ruby, Javascript
+  skills: Knowledge sharing
+
+- company: Polarion Software
+  dates: Sep 2012 — Aug 2013
+  city: Prague
+  description: |
+    In Polarion I was part of team working on brand new PLM software build with Ruby on
+    Rails and EmberJS. Communication between the backend and frontend was done via OSLC
+    REST API.
+
+- company: Railsformers
+  dates: Sep 2007 — Apr 2011
+  city: Ostrava
+  description: |
+    My first experience with professional software development.
+    I got a chance to learn Ruby and demonstrate that I can be a valuable part of theirs team.
+    My focus was on backend development. Our projects were mainly internal systems and
+    small web presentations built on our CMS system.
+
+
+
+
