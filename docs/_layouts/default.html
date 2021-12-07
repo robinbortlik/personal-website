@@ -1,0 +1,15 @@
+<html>
+<head>
+  <title>{{ site.title }}</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  {% if jekyll.environment == "production" %}
+    <script src="assets/javascripts/bundle.js"></script>
+  {% else %}
+    <script src="http://10.0.0.1:8080/bundle.js"></script>
+  {% endif %}
+</head>
+<body class="h-full p-10 bg-white">
+  {{ content }}
+</body>
+</html>
