@@ -5,7 +5,7 @@ layout: default
 <div class="container mx-auto">
   <div class="flex">
     <div class="w-3/12 prose flex-initial hidden lg:block md:block">
-      <img src="assets/images/profile.jpeg" class="photo">
+      <img src="assets/images/profile.jpeg" class="photo" />
       {% include details.html %}
     </div>
     <div class="flex-1 w-9/12">
@@ -14,21 +14,22 @@ layout: default
           <div class="flex-1">
             <h1>Robin Bortlík</h1>
           </div>
-          <div class="flex-0 lg:hidden md:hidden"><img src="assets/images/profile.jpeg" class="small-photo"></div>
+          <div class="flex-0 lg:hidden md:hidden">
+            <img src="assets/images/profile.jpeg" class="small-photo" />
+          </div>
         </div>
-
       </div>
 
       <div class="prose">
         <p class="pt-6">
-          I'm a software developer with 10+ years of experience. For most of my career, I have been
-          working within small teams building small and large scale web applications, using Ruby and
-          Javascript.
+          I'm a software developer with 10+ years of experience. For most of my
+          career, I have been working within small teams building small and
+          large scale web applications, using Ruby and Javascript.
         </p>
 
         <p>
-          I'm a great team player whose primary focus is on team goals. I try to help, share and
-          deliver.
+          I'm a great team player whose primary focus is on team goals. I try to
+          help, share and deliver.
         </p>
 
         <div class="grid grid-cols-1 lg:hidden md:hidden">
@@ -38,18 +39,28 @@ layout: default
         <h2>Employment History</h2>
 
         {% for item in site.data.employment %}
-          <h3>{{item.company}}</h3>
-          <span>{{item.dates}}</span>&nbsp;-&nbsp;<span>{{item.city}}</span>
-          <p>{{item.description}}</p>
-          <ul>
-            {% if item.tech %}
-              <li>Tech: {{item.tech}}</li>
-            {% endif %}
-            {% if item.skills %}
-              <li>Skills: {{item.skills}}</li>
-            {% endif %}
-          </ul>
-        {% endfor %}
+        <h3>{{item.company}}</h3>
+        <span>{{item.dates}}</span>&nbsp;-&nbsp;<span>{{item.city}}</span>
+        <p>{{item.description}}</p>
+        <ul>
+          {% if item.tech %}
+          <li>Tech: {{item.tech}}</li>
+          {% endif %} {% if item.skills %}
+          <li>Skills: {{item.skills}}</li>
+          {% endif %}
+        </ul>
+        {% if item.image %}
+        <b>{{item.image_title}}</b>
+        <span class="prose-sm">(click to see the detail)</span>
+        <a
+          href="{{item.image}}"
+          target="_blank"
+          title="Click to see the detail"
+          class="block mt-2"
+        >
+          <img src="{{item.image_preview}}" class="h-40" />
+        </a>
+        {% endif %} {% endfor %}
 
         <h2>Education</h2>
         <h3>University of Ostrava, Bachelor</h3>

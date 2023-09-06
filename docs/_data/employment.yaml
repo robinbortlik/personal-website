@@ -1,41 +1,42 @@
+- company: Progression.co
+  dates: Jan 2022 — Sep 2023
+  city: London, Remote
+  description: |
+    Worked within a team of six developers to create a platform geared towards career development. My duties included designing the code architecture, building APIs, integrating third-party services, maintaining infrastructure, and exploring new technologies. One of the highlights of my work was integrating ChatGPT with VectorDB, which allowed us to develop a search functionality capable of answering user queries based on their data.
+  tech: Ruby, Javascript, Redis, ChatGPT, VectorDB, Postgres
+  skills: Product development, Research, AI
+  image: assets/images/wins.png
+  image_preview: assets/images/wins-preview.png
+  image_title: Evidence of my work
+
 - company: Learnlife.com
   dates: Dec 2020 — Dec 2021
   city: Remote
   description: |
-    I have been leading a team of 4 developers. Together we have built an e-learning platform
-    and internal CRM system with a shared single sign-on service. My responsibility was
-    mainly to support developers and take care of theirs needs. That involved 1:1 meetings,
-    pairing sessions, features planning. Aside from that I was still coding and designing the
-    architecture of the platform.
-  tech: Ruby, Javascript, Redis, Terraform, Elasticsearch
+    Led a team of four developers to construct an e-learning platform and an internal CRM system, both under a unified single sign-on service. My role was primarily to support the developers by addressing their needs through 1:1 meetings, pairing sessions, and feature planning. Additionally, I continued to contribute code and design the platform's architecture.
+  tech: Ruby, Javascript, Redis, Terraform, Elasticsearch, Postgres
   skills: Leadership, Project management
 
 - company: Reevoo.com
   dates: May 2016 — Nov 2020
   city: London, Remote
   description: |
-    During my carrier in Reevoo I went through various projects which involved maintenance
-    of Ruby on Rails monolith applications and its refactoring using microservices architecture,
-    big data processing aka large feed file imports, data aggregations using Logstash and
-    Elasticsearch, or implementing new services using various Javascript frameworks. Besides
-    that, I have been helping onboarding newcomers as theirs "buddy".
-  tech: Ruby, Javascript, Redis, RabbitMQ, Terraform, Elasticsearch, Logstash, AWS
+    Throughout my career at Reevoo, I engaged in diverse projects that ranged from maintaining Ruby on Rails monolithic applications to refactoring them using a microservices architecture. I also dealt with big data tasks such as large feed file imports and data aggregation using Logstash and Elasticsearch. Additionally, I helped onboard new team members as their "buddy."
+  tech: Ruby, Javascript, Redis, RabbitMQ, Terraform, Elasticsearch, Logstash, AWS, Kubernetes
   skills: Self-management, Microservice architecture, Big data processing
 
 - company: Panter.ch
   dates: Nov 2014 — Nov 2015
   city: Remote
   description: |
-    Mostly worked on small Ruby on Rails applications which served as internal platforms.
-    Focusing on clean and well-tested code.
+    Primarily worked on small Ruby on Rails applications that served as internal platforms. My focus was on writing clean, well-tested code.
   tech: Ruby, Javascript
 
 - company: USU Software
   dates: Sep 2013 — Aug 2014
   city: Prostějov
   description: |
-    I have joined USU to help to build the SAAS platform with Ruby on Rails and educate my
-    colleagues about best practices and new trends.
+    Joined USU Software to contribute to the development of a SaaS platform using Ruby on Rails, while also educating my colleagues about best practices and industry trends.
   tech: Ruby, Javascript
   skills: Knowledge sharing
 
@@ -43,19 +44,10 @@
   dates: Sep 2012 — Aug 2013
   city: Prague
   description: |
-    In Polarion I was part of team working on brand new PLM software build with Ruby on
-    Rails and EmberJS. Communication between the backend and frontend was done via OSLC
-    REST API.
+    At Polarion, I was part of a team focused on developing a brand-new PLM software built with Ruby on Rails and EmberJS. Communication between the backend and frontend was facilitated through OSLC REST API.
 
 - company: Railsformers
   dates: Sep 2007 — Apr 2011
   city: Ostrava
   description: |
-    My first experience with professional software development.
-    I got a chance to learn Ruby and demonstrate that I can be a valuable part of theirs team.
-    My focus was on backend development. Our projects were mainly internal systems and
-    small web presentations built on our CMS system.
-
-
-
-
+    My first professional experience in software development. I had the opportunity to learn Ruby and proved myself as a valuable team member. My primary role was backend development, and our projects generally consisted of internal systems and small web presentations built on our proprietary CMS system.
