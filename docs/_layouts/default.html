@@ -26,6 +26,21 @@
       href="assets/images/favicons/favicon-16x16.png"
     />
     <link rel="manifest" href="assets/images/favicons/site.webmanifest" />
+
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-NWNYQLF0DP"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-NWNYQLF0DP");
+    </script>
   </head>
   <body class="h-full p-10 bg-white">
     {{ content }}
